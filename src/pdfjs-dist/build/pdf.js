@@ -9407,7 +9407,7 @@ class AnnotationElement {
     this.linkService = parameters.linkService;
     this.downloadManager = parameters.downloadManager;
     this.imageResourcesPath = parameters.imageResourcesPath;
-    this.renderInteractiveForms = parameters.renderInteractiveForms;
+    this.renderInteractiveForms = false;
     this.svgFactory = parameters.svgFactory;
 
     if (isRenderable) {

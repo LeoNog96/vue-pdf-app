@@ -1,6 +1,6 @@
 {
-  "name": "vue-pdf-app",
-  "version": "2.1.0",
+  "name": "vue-pdf-app-with-sign",
+  "version": "1.0.0",
   "description": "Vue 2 pdf viewer",
   "main": "dist/vue-pdf-app.umd.js",
   "unpkg": "dist/vue-pdf-app.umd.min.js",
@@ -34,7 +34,8 @@
     "build:icons": "webpack --config webpack-icons.config.js",
     "build:npm": "npm run build:lib & npm run build:icons",
     "dist-transit": "node dist-transit.js",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "link": "npm run build && cd dist && npm link"
   },
   "dependencies": {
     "vue": "^2.6.11"
