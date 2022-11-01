@@ -1341,6 +1341,12 @@ html {
 </style>
 
 <style lang="scss" scoped>
+.pdf-viewer {
+  overflow-x: auto;
+  max-height: 100%;
+  overflow-y: inherit;
+}
+
 #sidebarContent.zero-top,
 #sidebarContainer.zero-top,
 #viewerContainer.zero-top {
