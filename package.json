@@ -1,9 +1,9 @@
 {
   "name": "vue-pdf-app-with-sign",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Vue 2 pdf viewer",
-  "main": "dist/vue-pdf-app.umd.js",
-  "unpkg": "dist/vue-pdf-app.umd.min.js",
+  "main": "dist/vue-pdf-app-with-sign.umd.js",
+  "unpkg": "dist/vue-pdf-app-with-sign.umd.min.js",
   "private": false,
   "types": "src/types/pdf-viewer.d.ts",
   "repository": {
