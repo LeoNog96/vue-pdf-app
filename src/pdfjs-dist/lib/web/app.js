@@ -2177,7 +2177,6 @@ function webViewerKeyDown(evt) {
     switch (evt.keyCode) {
       case 83:
         evt.preventDefault();
-        alert("Salvar está desabilitado.");
         handled = true;
         break;
     }
